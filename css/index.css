@@ -36,6 +36,40 @@ h4 {
 
 .carousel-indicators {
     margin-bottom: 5px;
+#products {
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+}
+
+.contacts {
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+}
+
+.aboutus {
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+}
+
+h5 {
+    text-align: center;
+    margin: 10px;
+}
+
+#map {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    margin: 10px;
+}
+
+.carousel-indicators {
+    margin-bottom: 5px;
 }
 
 header p {
@@ -46,14 +80,10 @@ a:not([href]):not([tabindex]) {
     color: white;
 }
 
-.modal-header .close {
-    margin: 0px;
-    padding: 0px;
-}
 
 .alert {
     position: fixed;
-    top: 50px; 
+    bottom: 50px; 
     width: 50%;
     left: 25%;
     z-index: 1051;
@@ -67,7 +97,6 @@ footer {
 }
 
 h6 {
-    text-align: right;
     margin-top: 20px;
     color: white;
 }
@@ -75,4 +104,8 @@ h6 {
 h7 {
     color: white;
     margin-bottom: 30px;
+}
+
+#contacts p {
+    text-align: center;
 }
