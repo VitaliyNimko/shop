@@ -82,12 +82,5 @@
         "image": "iphonexsmax.jpg",
         "description": "",
         "price": 699.99
-    },
-    {
-        "id": "13",
-        "title": "iPhone XR",
-        "image": "iphonexr.jpg",
-        "description": "Тут повинен бути опис товару =)",
-        "price": 699.99
     }
 ]
