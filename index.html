@@ -32,11 +32,11 @@
                             <a class="nav-link smooth" href="#contacts"><i class="far fa-address-book"></i> Контакти</a>
                         </li>
                     </ul>
-                    </div>
-                    <p>
-                        <a href="#" class="btn btn-primary"><i class="fas fa-shopping-cart"></i> Корзина <span class="badge badge-secondary badge-light">0</span></a>
-                    </p>
-                
+                </div>
+                <p>
+                    <a class="nav-link btn-primary" href="#cartModal" data-toggle="modal"><i class="fas fa-shopping-cart"></i> Корзина <span id="cart-badge" class="badge badge-light"></span></a>
+                </p>
+
             </nav>
             <div id="carouselControls" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -69,100 +69,12 @@
 
     <main>
         <div class="container">
-            <h1 id="products">Асортимент</h1>
-            <div class="product-container row">
-                <div class="card col-12 col-sm-6 col-md-6 col-lg-4">
-                    <img src="img/iphonese.jpg" class="card-img-top" alt="iPhone SE">
-                    <div class="card-body">
-                        <h5 class="card-title">iPhone SE</h5>
-                        <a class="btn btn-primary btn-block" data-toggle="modal" data-target="#iphoneseModal">Інформація</a>
-                    </div>
+            <section>
+                <h2 id="products">Асортимент</h2>
+                <div class="products-container row">
+                    <!--Товари будуть появлятись тут-->
                 </div>
-                <div class="card col-12 col-sm-6 col-md-6 col-lg-4">
-                    <img src="img/iphone6.jpg" class="card-img-top" alt="iPhone 6">
-                    <div class="card-body">
-                        <h5 class="card-title">iPhone 6</h5>
-                        <a class="btn btn-primary btn-block" data-toggle="modal" data-target="#iphoneseModal">Інформація</a>
-                    </div>
-                </div>
-                <div class="card col-12 col-sm-6 col-md-6 col-lg-4">
-                    <img src="img/iphone6plus.jpg" class="card-img-top" alt="iPhone 6 Plus">
-                    <div class="card-body">
-                        <h5 class="card-title">iPhone 6 Plus</h5>
-                        <a class="btn btn-primary btn-block" data-toggle="modal" data-target="#iphoneseModal">Інформація</a>
-                    </div>
-                </div>
-                <div class="card col-12 col-sm-6 col-md-6 col-lg-4">
-                    <img src="img/iphone6s.jpg" class="card-img-top" alt="iPhone 6S">
-                    <div class="card-body">
-                        <h5 class="card-title">iPhone 6S</h5>
-                        <a class="btn btn-primary btn-block" data-toggle="modal" data-target="#iphoneseModal">Інформація</a>
-                    </div>
-                </div>
-                <div class="card col-12 col-sm-6 col-md-6 col-lg-4">
-                    <img src="img/iphone6splus.jpg" class="card-img-top" alt="iPhone 6S Plus">
-                    <div class="card-body">
-                        <h5 class="card-title">iPhone 6S Plus</h5>
-                        <a class="btn btn-primary btn-block" data-toggle="modal" data-target="#iphoneseModal">Інформація</a>
-                    </div>
-                </div>
-                <div class="card col-12 col-sm-6 col-md-6 col-lg-4">
-                    <img src="img/iphone7.jpg" class="card-img-top" alt="iPhone 7">
-                    <div class="card-body">
-                        <h5 class="card-title">iPhone 7</h5>
-                        <a class="btn btn-primary btn-block" data-toggle="modal" data-target="#iphoneseModal">Інформація</a>
-                    </div>
-                </div>
-                <div class="card col-12 col-sm-6 col-md-6 col-lg-4">
-                    <img src="img/iphone7plus.jpg" class="card-img-top" alt="iPhone 7 Plus">
-                    <div class="card-body">
-                        <h5 class="card-title">iPhone 7 Plus</h5>
-                        <a class="btn btn-primary btn-block" data-toggle="modal" data-target="#iphoneseModal">Інформація</a>
-                    </div>
-                </div>
-                <div class="card col-12 col-sm-6 col-md-6 col-lg-4">
-                    <img src="img/iphone8.jpg" class="card-img-top" alt="iPhone 8">
-                    <div class="card-body">
-                        <h5 class="card-title">iPhone 8</h5>
-                        <a class="btn btn-primary btn-block" data-toggle="modal" data-target="#iphoneseModal">Інформація</a>
-                    </div>
-                </div>
-                <div class="card col-12 col-sm-6 col-md-6 col-lg-4">
-                    <img src="img/iphone8plus.jpg" class="card-img-top" alt="iPhone 8 Plus">
-                    <div class="card-body">
-                        <h5 class="card-title">iPhone 8 Plus</h5>
-                        <a class="btn btn-primary btn-block" data-toggle="modal" data-target="#iphoneseModal">Інформація</a>
-                    </div>
-                </div>
-                <div class="card col-12 col-sm-6 col-md-6 col-lg-4">
-                    <img src="img/iphonex.jpg" class="card-img-top" alt="iPhone X">
-                    <div class="card-body">
-                        <h5 class="card-title">iPhone X</h5>
-                        <a class="btn btn-primary btn-block" data-toggle="modal" data-target="#iphoneseModal">Інформація</a>
-                    </div>
-                </div>
-                <div class="card col-12 col-sm-6 col-md-6 col-lg-4">
-                    <img src="img/iphonexs.jpg" class="card-img-top" alt="iPhone XS">
-                    <div class="card-body">
-                        <h5 class="card-title">iPhone XS</h5>
-                        <a class="btn btn-primary btn-block" data-toggle="modal" data-target="#iphoneseModal">Інформація</a>
-                    </div>
-                </div>
-                <div class="card col-12 col-sm-6 col-md-6 col-lg-4">
-                    <img src="img/iphonexsmax.jpg" class="card-img-top" alt="iPhone XS Max">
-                    <div class="card-body">
-                        <h5 class="card-title">iPhone XS Max</h5>
-                        <a class="btn btn-primary btn-block" data-toggle="modal" data-target="#iphoneseModal">Інформація</a>
-                    </div>
-                </div>
-                <div class="card col-12 col-sm-6 col-md-6 col-lg-4">
-                    <img src="img/iphonexr.jpg" class="card-img-top" alt="iPhone XR">
-                    <div class="card-body">
-                        <h5 class="card-title">iPhone XR</h5>
-                        <a class="btn btn-primary btn-block" data-toggle="modal" data-target="#iphoneseModal">Інформація</a>
-                    </div>
-                </div>
-            </div>
+            </section>
             <div id="aboutus">
                 <h1 class="aboutus">Про нас</h1>
                 <p> iStore Lviv - роздрібна мережа фірмових магазинів техніки Apple. Дизайн магазинів, асортимент брендів і навіть викладка техніки виконані згідно з рекомендаціями компанії Apple. Мережа магазинів успішно реалізує модель торгівлі, при якій
@@ -184,22 +96,24 @@
     </main>
     <footer>
         <div class="container">
-
+            <h6>+3 8(063)12-34-567</h6>
+            <h7>© 2012-2019. Усі права захищені.</h7>
         </div>
     </footer>
 
-    <!-- Modal iPhone SE-->
+    <!-- Modal iPhone SE
     <div class="modal fade" id="iphoneseModal" tabindex="-1" role="dialog" aria-labelledby="iphoneseTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="iphoneseTitle">iPhone SE</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h5 class="modal-title" id="iphoneseTitle">iPhone SE</h5>
                 </div>
                 <div class="modal-body">
-                    <!--- carousel -->
+                  
+                  
                     <div id="carouselModal" class="carousel slide" data-ride="carousel">
                         <ol class="carousel-indicators">
                             <li data-target="#carouselModal" data-slide-to="0" class="active"></li>
@@ -222,7 +136,7 @@
                     <span class="sr-only">Next</span>
                 </a>
                     </div>
-                    <!--- end carousel -->
+                   
                     <h4>Характеристики iPhone SE</h4>
                     <div id="characteriphonese">
                         <table class="tableiphonese">
@@ -359,16 +273,79 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Назад</button>
-                    <button type="button" class="btn btn-success">Купити</button>
+                    <button type="button" class="btn btn-dark" data-dismiss="modal">Назад</button>
+                    <button type="button" class="btn btn-success">В корзину</button>
                 </div>
             </div>
         </div>
     </div>
+-->
+
+    <div class="modal fade" id="productInfoModal" tabindex="-1" role="dialog" aria-labelledby="productInfoLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="productInfoLabel">Інформація про товар</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+                </div>
+                <div class="modal-body">
+                    <img class="card-img-top" src="" alt="">
+                    <h4 class="card-title"></h4>
+                    <h5 class="card-price"></h5>
+                    <p class="card-text"></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрити</button>
+                    <button class="btn btn-success buy" data-id="id">Купити</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Cart -->
+    <div class="modal fade" id="cartModal" tabindex="-1" role="dialog" aria-labelledby="cartLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="cartLabel">Корзина</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+                </div>
+                <div class="modal-body">
+                    <div class="cart-product-list-container"></div>
+                    <hr>
+                    <div class="container">
+                        <form>
+                            <div class="form-group row">
+                                <label for="client-name" class="col-4 col-form-label">Ім'я:</label>
+                                <input class="form-control col-8" type="text" id="client-name" required>
+                            </div>
+                            <div class="form-group row">
+                                <label for="client-email" class="col-4 col-form-label">Email:</label>
+                                <input class="form-control col-8" type="email" id="client-email" required>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрити</button>
+                    <button class="btn btn-primary order">Замовити</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
     <script src="js/smooth-scroll.js"></script>
+    <script async src="js/alert-window.js"></script>
+    <script defer src="js/cart.js"></script>
+    <script defer src="js/product-list.js"></script>
+    <script defer src="js/index.js"></script>
 </body>
 
 </html>

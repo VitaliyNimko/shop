@@ -1,0 +1,93 @@
+[
+    {
+        "id": "1",
+        "title": "iPhone SE",
+        "image": "iphonese.jpg",
+        "description": "Тут повинен бути опис товару =)",
+        "price": 699.99
+    },
+    {
+        "id": "2",
+        "title": "iPhone 6",
+        "image": "iphone6.jpg",
+        "description": "Тут повинен бути опис товару =)",
+        "price": 699.99
+    },
+    {
+        "id": "3",
+        "title": "iPhone 6 Plus",
+        "image": "iphone6plus.jpg",
+        "description": "Тут повинен бути опис товару =)",
+        "price": 699.99
+    },
+    {
+        "id": "4",
+        "title": "iPhone 6S",
+        "image": "iphone6s.jpg",
+        "description": "Тут повинен бути опис товару =)",
+        "price": 699.99
+    },
+    {
+        "id": "5",
+        "title": "iPhone 6S Plus",
+        "image": "iphone6splus.jpg",
+        "description": "Тут повинен бути опис товару =)",
+        "price": 699.99
+    },
+    {
+        "id": "6",
+        "title": "iPhone 7",
+        "image": "iphone7.jpg",
+        "description": "Тут повинен бути опис товару =)",
+        "price": 699.99
+    },
+    {
+        "id": "7",
+        "title": "iPhone 7 Plus",
+        "image": "iphone7plus.jpg",
+        "description": "Тут повинен бути опис товару =)",
+        "price": 699.99
+    },
+    {
+        "id": "8",
+        "title": "iPhone 8",
+        "image": "iphone8.jpg",
+        "description": "Тут повинен бути опис товару =)",
+        "price": 699.99
+    },
+    {
+        "id": "9",
+        "title": "iPhone 8 Plus",
+        "image": "iphone8plus.jpg",
+        "description": "Тут повинен бути опис товару =)",
+        "price": 699.99
+    },
+    {
+        "id": "10",
+        "title": "iPhone X",
+        "image": "iphonex.jpg",
+        "description": "Тут повинен бути опис товару =)",
+        "price": 699.99
+    },
+    {
+        "id": "11",
+        "title": "iPhone XS",
+        "image": "iphonexs.jpg",
+        "description": "Тут повинен бути опис товару =)",
+        "price": 699.99
+    },
+    {
+        "id": "12",
+        "title": "iPhone XS Max",
+        "image": "iphonexsmax.jpg",
+        "description": "",
+        "price": 699.99
+    },
+    {
+        "id": "13",
+        "title": "iPhone XR",
+        "image": "iphonexr.jpg",
+        "description": "Тут повинен бути опис товару =)",
+        "price": 699.99
+    }
+]
